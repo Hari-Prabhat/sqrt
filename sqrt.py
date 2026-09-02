@@ -1,6 +1,5 @@
 import streamlit as st
 st.title("Square Root Calculator")
-
 st.write("This is a simple square root calculator. Enter a number below to calculate its square root.")
 
 
@@ -14,6 +13,7 @@ if st.button("Calculate Square Root"):
     else:
         square_root = number ** 0.5
         st.write(f"The square root of {number}   is   {square_root}.")
+
 
 
 st.write("Made by Hari Prabhat")
