@@ -14,3 +14,4 @@ if st.button("Calculate Square Root"):
 st.warning("Note: The square root of a negative number is not defined in the set of real numbers.")
 st.write("Made by Hari Prabhat")
 
+st.feedback("stars")
